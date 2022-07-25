@@ -23,11 +23,11 @@ variable "controller_type" {
 }
 
 variable "project" {
-  default = "k8s-the-hard-way-tf" # TODO: Might need to append to if GCP adds a number at the end.
+  default = "k8s-the-hard-way-tf-27" # TODO: Might need to append to if GCP adds a number at the end.
 }
 
 variable "region" {
-  default = "us-west1"
+  default = "us-central1"
 }
 
 variable "scripts_path" {
@@ -35,11 +35,11 @@ variable "scripts_path" {
 }
 
 variable "ssh_path" {
-  default = "" # TODO: Path to private key that matches the public key added to the project metadata.
+  default = "/home/robcecc/.ssh/id_ed25519" # TODO: Path to private key that matches the public key added to the project metadata.
 }
 
 variable "user" {
-  default = "" # TODO: Username on local system (run `whoami` to get this value).
+  default = "robcecc" # TODO: Username on local system (run `whoami` to get this value).
 }
 
 variable "worker_count" {
@@ -59,7 +59,7 @@ variable "worker_type" {
 }
 
 variable "zone" {
-  default = "us-west1-a"
+  default = "us-central1-a"
 }
 
 variable "zone_map" {

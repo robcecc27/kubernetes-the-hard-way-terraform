@@ -183,3 +183,6 @@ tags
 *.key
 *.pem
 configs/encryption-config.yaml
+
+k8s-the-hard-way-tf-27-f3229dff67f7.json
+.terraform.lock.hcl
